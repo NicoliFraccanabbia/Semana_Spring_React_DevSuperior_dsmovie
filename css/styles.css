@@ -2,24 +2,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
 </style>
 
+:root {
 
-* { box-sizing: border-box;
+--bg-gray: #ddd;
+--color-primary: #4D41C0;
+--white: #fff;
+
+
+
+}
+
+* { 
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 
 }
 
-html, body { background-color: #ddd;
+
+h1, h2, h3,h4,h5,h6 {
+     margin: 0;
+
+}
+html, body { 
+    background-color: #ddd;
 }
 
 header {background-color: #4D41C0;
     color:#fff;
-    ;}
-nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    }
+
+nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a { 
+    font-size: 12px ;
+    font-weight: 400 ;
 }
     a, a:hover { 
         text-decoration:none;
         color: unset;
     }
+
+
+    .dsmoovie-contact-container{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .dsmoovie-contact-container img {
+        margin-right: 10px;
+    }
+    
