@@ -68,7 +68,7 @@ nav a {
     }
 
    #dsmovie-card-list {
-       padding: 40px 10px;
+       padding: 0px 10px;
    }
 
 
@@ -192,5 +192,67 @@ margin-bottom: 20px;
 
     font-size: 12px;
     color: #AAAAAA;
+
+}
+
+
+.dsmovie-pagination-container {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dsmovie-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dsmovie-pagination-box p {
+margin: 0;
+font-size: 12px;
+font-weight: 400;
+color: #4D41C0
+
+}
+.dsmovie-pagination-box button {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 40px;
+height: 40px;
+border: 1px solid;
+border-color: #4D41C0;
+border-radius: 4px;
+background-color: #fff;
+}
+
+
+.dsmovie-pagination-box button img {
+
+
+filter: brightness(0) saturate(100%) invert(19%) sepia(82%) saturate(2133%) hue-rotate(237deg) brightness(96%) contrast(94%);
+
+
+}
+
+.dsmovie-pagination-box button:disabled img {
+    filter: unset;
+}
+
+.dsmovie-pagination-box button:disabled {
+
+border: 1px solid;
+border-color: #AAAAAA;
+border-radius: 4px;
+
+
+}
+
+.dsmovie-flip-horizontal{
+    transform: rotate(180deg);
+
 
 }
